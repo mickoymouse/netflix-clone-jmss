@@ -1,12 +1,12 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Feature from "@/components/Feature";
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  
+
   return (
-    <main>
-      <h1>Main Content</h1>
-    </main>
+      <main className="h-screen">
+        <Feature />
+      </main>
   )
 }
